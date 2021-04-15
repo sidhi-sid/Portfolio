@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", arial;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: #6700ee;
+}
+
+.nav-container a {
+  color: white;
+}
+
+.nav-container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+.nav-container header .logo {
+  color: #00f7ff;
+  font-weight: bold;
+}
+
+.nav-container header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.social-header,
+.design1 {
+  display: none;
+}
+
+.main-container {
+  background: #6e00ff;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  padding: 4em;
+}
+
+.main-container .meet {
+  font-weight: bold;
+  color: #ff64cb;
+}
+/*# sourceMappingURL=main.css.map */
