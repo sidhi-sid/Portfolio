@@ -119,16 +119,51 @@ footer {
 }
 
 .skills {
-  background-image: url("../images/Rectangle11.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: #ff64cb;
 }
 
 .skills-container ul .skill-set {
-  padding: 2em;
+  padding: 2em 0;
   border-radius: 1em;
-  margin-bottom: 1em;
-  background: transparent;
-  opacity: 1;
+  width: 80%;
+  margin: 0 auto 1em auto;
+  background: white;
+}
+
+.skills-container ul .skill-set .heading-container {
+  font-weight: bold;
+}
+
+.projects {
+  background: #f7f7f7;
+}
+
+.project-container a img {
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+.about {
+  background: #ba87ff;
+}
+
+.about-me {
+  padding: 1em;
+  background: rgba(255, 255, 255, 0.418);
+  border-radius: 1em;
+}
+
+.about-me img {
+  border-radius: 1em;
+  width: 50%;
+  height: 50%;
+}
+
+.about-me .heading {
+  margin: 0;
+}
+
+footer {
+  background: #6e00ff;
 }
 /*# sourceMappingURL=main.css.map */
