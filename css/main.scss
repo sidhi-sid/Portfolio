@@ -39,7 +39,8 @@ img {
   }
 }
 .social-header,
-.design1 {
+.design1,
+.illustration2 {
   display: none;
 }
 .main-container {
@@ -132,4 +133,17 @@ footer {
 }
 footer {
   background: #6e00ff;
+}
+footer .heading {
+  color: #00f7ff;
+  font-weight: bold;
+}
+footer .heading .hire-me {
+  color: #ff64cb;
+}
+footer .details {
+  color: whitesmoke;
+  p {
+    margin: 0;
+  }
 }
