@@ -83,6 +83,10 @@ footer {
   position: relative;
 }
 
+.featured img {
+  border-radius: 1em;
+}
+
 .featured::before {
   content: "";
   position: absolute;
@@ -120,7 +124,7 @@ footer {
 }
 
 .skills {
-  background: #ff64cb;
+  background: #f873cc;
 }
 
 .skills-container ul .skill-set {
@@ -149,7 +153,7 @@ footer {
 }
 
 .about-me {
-  padding: 1em;
+  padding: 1em 2em 1em 1em;
   background: rgba(255, 255, 255, 0.418);
   border-radius: 1em;
 }
@@ -186,6 +190,9 @@ footer .details p {
 }
 
 @media only screen and (min-width: 700px) {
+  .nav-container a {
+    font-size: 1.2em;
+  }
   .featured,
   .project-container {
     text-align: left;
@@ -221,6 +228,9 @@ footer .details p {
   .project-container img {
     margin-left: 2em;
   }
+  .about {
+    padding: 5% 10% 5% 10%;
+  }
   .about-me {
     display: -ms-grid;
     display: grid;
@@ -240,6 +250,9 @@ footer .details p {
 @media only screen and (min-width: 1050px) {
   .main-container {
     height: 70vh;
+  }
+  .featured, .projects {
+    font-size: 1.2em;
   }
   .nav-container {
     display: -ms-grid;
@@ -284,7 +297,7 @@ footer .details p {
   }
   .main-container .content {
     background: #6e00ff;
-    padding: 6em 8em 6em 4em;
+    padding: 12em 8em 6em 4em;
     text-align: left;
   }
   .main-container .content h1 {
@@ -293,13 +306,16 @@ footer .details p {
   }
   .main-container .content .meet {
     margin: unset;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   .main-container .design1 {
     display: unset;
     margin-left: -50%;
     margin-top: 15%;
     width: 100%;
+  }
+  .about {
+    padding: 5% 15% 5% 15%;
   }
   .projects img {
     float: right;
@@ -308,6 +324,9 @@ footer .details p {
 }
 
 @media only screen and (min-width: 1250px) {
+  .main-container {
+    height: 80vh;
+  }
   header {
     padding: 2em 2em 2em 10em;
   }
@@ -331,6 +350,9 @@ footer .details p {
   }
   section {
     padding: 6em 20em 4em 20em;
+  }
+  .about {
+    padding: 5% 25% 5% 25%;
   }
   .hero .content {
     padding: 9em 20em 6em 20em;
