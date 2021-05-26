@@ -22,32 +22,21 @@ img {
 .nav-container {
   background: #6700ee;
 }
-
 .nav-container a {
   color: white;
 }
-
 .nav-container header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 2em;
 }
-
 .nav-container header .logo {
   color: #00f7ff;
   font-weight: bold;
 }
-
 .nav-container header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .nav-container header ul a {
   display: block;
   padding: 0 1em;
@@ -62,12 +51,10 @@ img {
 .main-container {
   background: #6e00ff;
   color: white;
-  display: -ms-grid;
   display: grid;
   text-align: center;
   padding: 4em;
 }
-
 .main-container .meet {
   font-weight: bold;
   color: #ff64cb;
@@ -130,7 +117,6 @@ footer {
   margin: 0 auto 1em auto;
   background: white;
 }
-
 .skills-container ul .skill-set .heading-container {
   font-weight: bold;
 }
@@ -153,13 +139,11 @@ footer {
   background: rgba(255, 255, 255, 0.418);
   border-radius: 1em;
 }
-
 .about-me img {
   border-radius: 1em;
   width: 250px;
   height: 250px;
 }
-
 .about-me .heading {
   margin: 0;
 }
@@ -180,52 +164,51 @@ footer .heading .hire-me {
 footer .details {
   color: whitesmoke;
 }
-
 footer .details p {
   margin: 0;
 }
 
 @media only screen and (min-width: 700px) {
   .featured,
-  .project-container {
+.project-container {
     text-align: left;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 45% auto;
-        grid-template-columns: 45% auto;
+    grid-template-columns: 45% auto;
   }
+
   .featured .left,
-  .project-left {
-    display: -ms-grid;
+.project-left {
     display: grid;
     place-content: center;
   }
+
   .featured .right {
     margin-left: 2em;
     margin-top: 1em;
   }
+
   .skills {
     margin-top: -5em;
     margin-bottom: -7em;
     padding-top: 7em;
   }
+
   .skills-container .skills-card {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[3];
-        grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
   }
+
   .projects {
     padding-top: 7em;
   }
+
   .project-container img {
     margin-left: 2em;
   }
+
   .about-me {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto 70%;
-        grid-template-columns: auto 70%;
+    grid-template-columns: auto 70%;
   }
   .about-me img {
     width: 250px;
@@ -236,104 +219,8 @@ footer .details p {
     text-align: left;
   }
 }
-
 @media only screen and (min-width: 1050px) {
   .main-container {
-    height: 70vh;
-  }
-  .nav-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
-    background: unset;
-  }
-  .nav-container header {
-    background: #6700ee;
-  }
-  header {
-    padding: 2em 2em 2em 4em;
-  }
-  .social-header {
-    padding: 2em 4em 2em 0;
-    display: block;
-  }
-  .social-header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 7em;
-    float: right;
-  }
-  .social-header ul img {
-    width: 20px;
-  }
-  section {
-    padding: 4em;
-  }
-  .main-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
-    background: unset;
-    padding: 0;
-  }
-  .main-container .content {
-    background: #6e00ff;
-    padding: 6em 8em 6em 4em;
-    text-align: left;
-  }
-  .main-container .content h1 {
-    font-size: 3em;
-    line-height: 1.2em;
-  }
-  .main-container .content .meet {
-    margin: unset;
-    font-size: 1.2em;
-  }
-  .main-container .design1 {
-    display: unset;
-    margin-left: -50%;
-    margin-top: 15%;
-    width: 100%;
-  }
-  .projects img {
-    float: right;
-    max-width: 500px;
+    height: 90vh;
   }
 }
-
-@media only screen and (min-width: 1250px) {
-  header {
-    padding: 2em 2em 2em 10em;
-  }
-  .social-header {
-    padding: 2em 10em 2em 0;
-  }
-  section {
-    padding: 10em 10em 4em 10em;
-  }
-  .hero .content {
-    padding: 6em 8em 6em 10em;
-  }
-}
-
-@media only screen and (min-width: 1550px) {
-  header {
-    padding: 2em 2em 2em 20em;
-  }
-  .social-header {
-    padding: 2em 20em 2em 0;
-  }
-  section {
-    padding: 6em 20em 4em 20em;
-  }
-  .hero .content {
-    padding: 9em 20em 6em 20em;
-  }
-}
-/*# sourceMappingURL=main.css.map */
