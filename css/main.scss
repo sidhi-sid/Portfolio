@@ -5,17 +5,21 @@ body {
   margin: 0;
   font-family: "Poppins", arial;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   width: 100%;
 }
+
 .nav-container {
   background: #6700ee;
   a {
@@ -38,11 +42,13 @@ img {
     }
   }
 }
+
 .social-header,
 .design1,
 .illustration2 {
   display: none;
 }
+
 .main-container {
   background: #6e00ff;
   color: white;
@@ -54,14 +60,17 @@ img {
     color: #ff64cb;
   }
 }
+
 section,
 footer {
   padding: 4em 2em;
   text-align: center;
 }
+
 .featured {
   position: relative;
 }
+
 .featured::before {
   content: "";
   position: absolute;
@@ -73,6 +82,7 @@ footer {
   left: 0;
   z-index: -1;
 }
+
 .subtitle {
   text-transform: uppercase;
   font-weight: bolder;
@@ -80,6 +90,7 @@ footer {
   letter-spacing: 0.2em;
   font-size: 0.85em;
 }
+
 .featured-title {
   color: black;
   font-weight: bold;
@@ -87,6 +98,7 @@ footer {
   margin-top: -0.4em;
   display: block;
 }
+
 .featured-desc {
   color: #252525;
   margin-bottom: 3em;
@@ -94,9 +106,11 @@ footer {
   line-height: 1.8em;
   font-weight: 500;
 }
+
 .skills {
   background: #ff64cb;
 }
+
 .skills-container ul .skill-set {
   padding: 2em 0;
   border-radius: 1em;
@@ -107,13 +121,16 @@ footer {
     font-weight: bold;
   }
 }
+
 .projects {
   background: #f7f7f7;
 }
+
 .project-container a img {
   border-radius: 1em;
   margin-bottom: 2em;
 }
+
 .about {
   background: #ba87ff;
 }
@@ -131,22 +148,27 @@ footer {
     margin: 0;
   }
 }
+
 footer {
   background: #6e00ff;
 }
+
 footer .heading {
   color: #00f7ff;
   font-weight: bold;
 }
+
 footer .heading .hire-me {
   color: #ff64cb;
 }
+
 footer .details {
   color: whitesmoke;
   p {
     margin: 0;
   }
 }
+
 @media only screen and (min-width: 700px) {
   .featured,
   .project-container {
@@ -189,5 +211,95 @@ footer .details {
       margin-left: 2em;
       text-align: left;
     }
+  }
+}
+
+@media only screen and (min-width: 1050px){
+  .main-container{
+    height: 70vh;
+  }
+  .nav-container{
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+    header{
+      background: #6700ee;
+    }
+  }
+  header{
+    padding: 2em 2em 2em 4em;
+  }
+  .social-header{
+    padding: 2em 4em 2em 0;
+    display: block;
+    ul{
+      display: flex;
+      justify-content: space-between;
+      width: 7em;
+      float: right;
+      img{
+        width: 20px;
+      }
+    }
+  }
+  section{
+    padding: 4em;
+  }
+  .main-container{
+    display: grid;
+    grid-template-columns: 66% auto;
+    background: unset;
+    padding: 0;
+    .content{
+      background: #6e00ff;
+      padding: 6em 8em 6em 4em;
+      text-align: left;
+      h1{
+        font-size: 3em;
+        line-height: 1.2em;
+      }
+      .meet{
+        margin: unset;
+        font-size: 1.2em;
+      }
+    }
+    .design1{
+      display: unset;
+      margin-left: -50%;
+      margin-top: 15%;
+      width: 100%;
+    }
+  }
+  .projects img{
+    float: right;
+    max-width: 500px;
+  }
+}
+@media only screen and (min-width:1250px){
+  header{
+    padding: 2em 2em 2em 10em;
+  }
+  .social-header{
+    padding: 2em 10em 2em 0;
+  }
+  section{
+    padding: 10em 10em 4em 10em;
+  }
+  .hero .content{
+    padding: 6em 8em 6em 10em;
+  }
+}
+@media only screen and (min-width:1550px){
+  header{
+    padding: 2em 2em 2em 20em;
+  }
+  .social-header{
+    padding: 2em 20em 2em 0;
+  }
+  section{
+    padding: 6em 20em 4em 20em;
+  }
+  .hero .content{
+    padding: 9em 20em 6em 20em;
   }
 }
