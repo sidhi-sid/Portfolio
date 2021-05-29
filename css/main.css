@@ -198,6 +198,9 @@ footer .details p {
     text-align: left;
     display: -ms-grid;
     display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -ms-grid-columns: 45% auto;
         grid-template-columns: 45% auto;
   }
@@ -236,6 +239,9 @@ footer .details p {
     display: grid;
     -ms-grid-columns: auto 70%;
         grid-template-columns: auto 70%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .about-me img {
     width: 250px;
@@ -338,6 +344,9 @@ footer .details p {
   }
   .hero .content {
     padding: 6em 8em 6em 10em;
+  }
+  .contact-details {
+    font-size: 1.1em;
   }
 }
 
